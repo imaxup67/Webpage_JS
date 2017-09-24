@@ -1,0 +1,255 @@
+nav a, .nav.navbar-nav a {
+    font-size: 18px !important;
+    color: #333 !important;
+    font-weight: bold;
+    padding: 10px 20px;
+    letter-spacing: 0 !important;
+    margin: 5px;
+}
+
+@media (max-width: 500px) {
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        background: #f8f8f8;
+        border-color: #e7e7e7;
+        transform: none;
+    }
+}
+
+.navbar.navbar-default {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav.navbar-nav a {
+    color: #333 !important;
+}
+
+.navbar-brand {
+    height: auto;
+}
+
+@media (min-width: 992px) {
+    .nav.navbar-nav .navbar-logout {
+        position: absolute;
+        left: 30px;
+    }
+
+    #myNavbar {
+        margin-top: -45px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-toggle {
+        display: block !important;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        border-radius: 5px;
+        background-color: #1d222e;
+        height: 4px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+        overflow: auto !important;
+    }
+
+    .navbar-default .navbar-brand {
+        position: inherit;
+    }
+}
+
+.collapse.in {
+    display: block !important;
+}
+
+.navbar-logout a.btn {
+    margin: auto;
+}
+
+.page-title {
+    font-size: 40px;
+    padding: 20px 15px 0 15px;
+}
+
+.my-nav-tabs {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.my-nav-tabs a {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.my-nav-tabs .active a {
+    color: #141F3F;
+}
+
+@media (min-width: 576px) {
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+        float: left;
+    }
+}
+
+.panel-title h3 {
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.panel a {
+    color: #000;
+    text-decoration: none;
+}
+
+.progress {
+    height: 30px;
+}
+
+.progress .progress-bar {
+    background-color: #00B5FF !important;
+}
+
+.total-tokens {
+    font-size: 28px;
+}
+
+footer.footer-new {
+    background-color: #fff;
+}
+
+.footer-top {
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-top: 50px;
+}
+
+footer a {
+    font-size: 14px;
+}
+
+.footer-bottom-titles {
+    padding: 0 40%;
+}
+
+.footer-bottom-social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom-description {
+    font-size: 14px;
+    padding: 0 25%;
+}
+@media (min-width: 768px) {
+    .search-page .container {
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+.search-bar {
+    background-color: #ffffff;
+    margin-top: -20px;
+}
+
+.input-group-prepend {
+    margin-right: -1px;
+}
+
+.input-group-append, .input-group-prepend {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.input-group .input-group-prepend {
+    padding-left: 5px;
+    margin-top: -26px;
+    z-index: 3;
+}
+
+.input-group .form-control.from {
+    padding-left: 43px;
+}
+
+.input-group .form-control.to {
+    padding-left: 25px;
+}
+
+.input-group .form-control.departure {
+    padding-left: 73px;
+}
+
+.input-group .form-control.return {
+    padding-left: 54px;
+}
+
+.form-check-inline {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 0;
+    margin-right: .75rem;
+}
+
+.form-check-input {
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+    width: 23px;
+    height: 23px;
+}
+
+.search .slider.slider-horizontal {
+    width: 100%;
+}
+
+.slider-selection {
+    background-image: none;
+    background-color: #00b9f0;
+}
+
+.slider-handle {
+    background-image: none;
+    background-color: #00b9f0;
+}
+
+.search .panel-title h3 {
+    font-size: 22px;
+}
+
+.text-blue {
+    color: #00B5FF;
+}
+
+.search-result .result-item {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.filter-by-time .nav-item {
+    width: 50%;
+    text-align: center;
+}
+
+.filter-by-time .nav-item.active .nav-link {
+    background-color: #00B5FF;
+    color: #fff;
+}

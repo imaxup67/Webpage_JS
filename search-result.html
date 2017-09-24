@@ -1,0 +1,679 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <title>Wanderift | Personal Account</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/bs4-utilities.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- bootstrap slider -->
+    <link rel="stylesheet" href="css/bootstrap-slider.min.css">
+    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/account.css"/>
+</head>
+
+<body class="search-page">
+<main id="app">
+    <nav class="navbar navbar-default sharp text-center">
+        <div class="d-inline-block">
+            <a class="navbar-brand p-0" href="#"><img src="images/Wanderift_black_logo.png" alt=""></a>
+        </div>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Corporate Plans</a></li>
+                <li><a href="#">Subscriptions</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li class="navbar-logout"><a href="#" class="btn btn-2 bold text-dark">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="search-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="text-center">Round Trip</a></li>
+                        <li><a href="#" class="text-center">One Way</a></li>
+                        <li><a href="#" class="text-center">1 Adult</a></li>
+                        <li><a href="#" class="text-center">Economy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control from" placeholder="">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">From: </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control to" placeholder="">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">To: </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control departure" placeholder="">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Departure: </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control return" placeholder="">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">Return: </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="mr-3">Stops</label>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input mr-2" name="stop">Any
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input mr-2" name="stop">Nonestop (Direct Flights)
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input mr-2" name="stop">Up to 1 stop
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input mr-2" name="stop">Up to 2 stops
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="mr-4">Stopover</label>
+                    <div class="slider-red d-inline-block mr-4">
+                        <input id="stopover" type="text" value="" class="form-control">
+                    </div>
+                    <label class="stopover mr-2">2 - 24 hours</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt30 search">
+        <div class="row">
+            <div class="col-xl-3">
+                <div class="panel">
+                    <div class="panel-body shadow">
+                        <div class="panel-title mb-4">
+                            <h3 class="bold p-0 mt-0">Subscription to Wanderift Lift or Pro and Save</h3>
+                        </div>
+                        <h4 class="bold m-0 mb-2">Wanderift Lite</h4>
+                        <h4 class="bold m-0 mb-2"><span class="text-blue">3</span> Flights <span class="text-blue">$369</span></h4>
+                        <p class="">- 3 Tokens (3 one-way flights)</p>
+                        <p class="">- 1 Unused Token Rolls over</p>
+                        <p class="">- No Long Term Commitment</p>
+                        <button class="btn btn-1 bold w-100 mb-4">Learn More</button>
+                        <h4 class="bold m-0 mb-2">Wanderift Pro</h4>
+                        <h4 class="bold m-0 mb-2"><span class="text-blue">4</span> Flights <span class="text-blue">$459</span></h4>
+                        <p class="">- 4 Tokens (4 one-way flights)</p>
+                        <p class="">- 2 Unused Token Rolls over</p>
+                        <p class="">- No Long Term Commitment</p>
+                        <button class="btn btn-1 bold w-100 mb-4">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 search-result">
+                <div class="row shadow result-item pt-2 pb-2">
+                    <div class="col-sm-2 pt-4">
+                        <h3>$174.00</h3>
+                        <label>1 Adult</label>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="row">
+                            <div class="col-3 text-center pt-2">
+                                <img src="images/american_airlines_logo.png" alt="AA" style="width: 25px;">
+                            </div>
+                            <div class="col-6">
+                                <label>9:15 - 10:15</label><br>
+                                <span>Dallas -> Austin</span>
+                            </div>
+                            <div class="col-3">
+                                <label>Tue 3 Sep</label><br>
+                                <span>1h 0m</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <hr>
+                            </div>
+                            <div class="col-6 pt-2">
+                                <span class="small">Stays about 1 month in Austin</span>
+                            </div>
+                            <div class="col-3">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 text-center pt-2">
+                                <img src="images/american_airlines_logo.png" alt="AA" style="width: 25px;">
+                            </div>
+                            <div class="col-6">
+                                <label>9:15 - 10:15</label><br>
+                                <span>Dallas -> Austin</span>
+                            </div>
+                            <div class="col-3">
+                                <label>Tue 3 Sep</label><br>
+                                <span>1h 0m</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                    </div>
+                </div>
+                <div class="row shadow result-item pt-2 pb-2">
+                    <div class="col-sm-2 pt-4">
+                        <h3>$174.00</h3>
+                        <label>1 Adult</label>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="row">
+                            <div class="col-3 text-center pt-2">
+                                <img src="images/american_airlines_logo.png" alt="AA" style="width: 25px;">
+                            </div>
+                            <div class="col-6">
+                                <label>9:15 - 10:15</label><br>
+                                <span>Dallas -> Austin</span>
+                            </div>
+                            <div class="col-3">
+                                <label>Tue 3 Sep</label><br>
+                                <span>1h 0m</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <hr>
+                            </div>
+                            <div class="col-6 pt-2">
+                                <span class="small">Stays about 1 month in Austin</span>
+                            </div>
+                            <div class="col-3">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 text-center pt-2">
+                                <img src="images/american_airlines_logo.png" alt="AA" style="width: 25px;">
+                            </div>
+                            <div class="col-6">
+                                <label>9:15 - 10:15</label><br>
+                                <span>Dallas -> Austin</span>
+                            </div>
+                            <div class="col-3">
+                                <label>Tue 3 Sep</label><br>
+                                <span>1h 0m</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                    </div>
+                </div>
+                <div class="row shadow result-item pt-2 pb-2">
+                    <div class="col-sm-2 pt-4">
+                        <h3>$174.00</h3>
+                        <label>1 Adult</label>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="row">
+                            <div class="col-3 text-center pt-2">
+                                <img src="images/american_airlines_logo.png" alt="AA" style="width: 25px;">
+                            </div>
+                            <div class="col-6">
+                                <label>9:15 - 10:15</label><br>
+                                <span>Dallas -> Austin</span>
+                            </div>
+                            <div class="col-3">
+                                <label>Tue 3 Sep</label><br>
+                                <span>1h 0m</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <hr>
+                            </div>
+                            <div class="col-6 pt-2">
+                                <span class="small">Stays about 1 month in Austin</span>
+                            </div>
+                            <div class="col-3">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 text-center pt-2">
+                                <img src="images/american_airlines_logo.png" alt="AA" style="width: 25px;">
+                            </div>
+                            <div class="col-6">
+                                <label>9:15 - 10:15</label><br>
+                                <span>Dallas -> Austin</span>
+                            </div>
+                            <div class="col-3">
+                                <label>Tue 3 Sep</label><br>
+                                <span>1h 0m</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 pt-2">
+                        <div class="shadow p-2">
+                            <label class="small">Save $32 on this flight when subscribing to Wanderift</label>
+                            <button class="btn btn-1 bold w-100">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row shadow result-item pt-2 pb-2">
+                    <div class="col-sm-2 pt-4">
+                        <h3>$174.00</h3>
+                        <label>1 Adult</label>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="row">
+                            <div class="col-3 text-center pt-2">
+                                <img src="images/american_airlines_logo.png" alt="AA" style="width: 25px;">
+                            </div>
+                            <div class="col-6">
+                                <label>9:15 - 10:15</label><br>
+                                <span>Dallas -> Austin</span>
+                            </div>
+                            <div class="col-3">
+                                <label>Tue 3 Sep</label><br>
+                                <span>1h 0m</span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <hr>
+                            </div>
+                            <div class="col-6 pt-2">
+                                <span class="small">Stays about 1 month in Austin</span>
+                            </div>
+                            <div class="col-3">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 text-center pt-2">
+                                <img src="images/american_airlines_logo.png" alt="AA" style="width: 25px;">
+                            </div>
+                            <div class="col-6">
+                                <label>9:15 - 10:15</label><br>
+                                <span>Dallas -> Austin</span>
+                            </div>
+                            <div class="col-3">
+                                <label>Tue 3 Sep</label><br>
+                                <span>1h 0m</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <div class="panel">
+                    <div class="panel-body shadow">
+                        <div class="panel-title mb-4">
+                            <h3 class="bold p-0 mt-0">Filter by Airline</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="p-0">
+                                <li class="pb-4">
+                                    <input id="airline1" type="checkbox" class="form-check-input mr-2">
+                                    <label for="airline1">
+                                        <img class="mr-1" src="images/american_airlines_logo.png" style="width: 25px;"/>
+                                        Sprite airlines
+                                    </label>
+                                </li>
+                                <li class="pb-4">
+                                    <input id="airline2" type="checkbox" class="form-check-input mr-2">
+                                    <label for="airline2">
+                                        <img class="mr-1" src="images/american_airlines_logo.png" style="width: 25px;"/>
+                                        Sprite airlines
+                                    </label>
+                                </li>
+                                <li class="pb-4">
+                                    <input id="airline3" type="checkbox" class="form-check-input mr-2">
+                                    <label for="airline3">
+                                        <img class="mr-1" src="images/american_airlines_logo.png" style="width: 25px;"/>
+                                        Sprite airlines
+                                    </label>
+                                </li>
+                                <li class="pb-4">
+                                    <input id="airline4" type="checkbox" class="form-check-input mr-2">
+                                    <label for="airline4">
+                                        <img class="mr-1" src="images/american_airlines_logo.png" style="width: 25px;"/>
+                                        Sprite airlines
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel filter-by-time">
+                    <div class="panel-body shadow">
+                        <div class="panel-title mb-4">
+                            <h3 class="bold p-0 mt-0">Filter by Time</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="nav shadow d-flex">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#takeoff" data-toggle="tab">Take-off</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#landing" data-toggle="tab">Landing</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="takeoff">
+                                    <div class="mt-3">Departure City Take-off</div>
+                                    <div id="de_city_take_off_time" class="small mb-4">0:00AM - 11:59PM</div>
+                                    <div class="slider-red">
+                                        <input id="de_city_take_off" type="text" value="" class="form-control">
+                                    </div>
+                                    <div class="mt-3">Arrival City Take-off</div>
+                                    <div id="arr_city_take_off_time" class="small mb-4">0:00AM - 11:59PM</div>
+                                    <div class="slider-red">
+                                        <input id="arr_city_take_off" type="text" value="" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="landing">
+                                    <div class="mt-3">Departure City Landing</div>
+                                    <div id="de_city_landing_time" class="small mb-4">0:00AM - 11:59PM</div>
+                                    <div class="slider-red">
+                                        <input id="de_city_landing" type="text" value="" class="form-control">
+                                    </div>
+                                    <div class="mt-3">Arrival City Landing</div>
+                                    <div id="arr_city_landing_time" class="small mb-4">0:00AM - 11:59PM</div>
+                                    <div class="slider-red">
+                                        <input id="arr_city_landing" type="text" value="" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer here -->
+    <footer class="footer-new">
+        <div class="container ">
+            <div class="footer-top">
+                <div class="row footer-top-row">
+                    <div class="col-md-3">
+                        <div class="footer-menu">
+                            <h4 class="pb-2">Contact</h4>
+                            <a href="#">Help / FAQ</a>
+                            <a href="#">Press</a>
+                            <a href="#">Partners</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-menu">
+                            <h4 class="pb-2">Company</h4>
+                            <a href="#">About</a>
+                            <a href="#">Mobile</a>
+                            <a href="#">How it works</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-menu">
+                            <h4 class="pb-2">More</h4>
+                            <a href="https://skyscroller.com/">Skyscroller</a>
+                            <a href="#">Advertising</a>
+                            <a href="#">Airline Fees</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom" style="height: 250px;">
+                <div class="footer-bottom-titles">
+                    <a href="#" class="title-link">Terms</a>
+                    <a href="#" class="title-link">Policy</a>
+                </div>
+                <div class="footer-bottom-social-links">
+                    <a href="https://www.facebook.com/Wanderift/" class="face-link ">
+                        <img src="images/face-black.png" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/wanderift/" class="ig-link ">
+                        <img src="images/instagram-black.png" alt="">
+                    </a>
+                    <a href="https://twitter.com/wanderift" class="twit-link ">
+                        <img src="images/twit-black.png" alt="">
+                    </a>
+                </div>
+                <div class="footer-bottom-description">
+                    Save time and money when booking with Wanderift. Always pay the same price for your flight when booking with tokens.
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="ig-link">
+                    <img src="images/Wanderift_black_logo.png" alt="" style="width: 140px; padding-bottom: 40px;">
+                </a>
+            </div>
+        </div>
+    </footer>
+</main>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-slider.js"></script>
+<script>
+    $(document).ready(function () {
+        var Stopover = new Slider("input#stopover", {
+            min: 2,
+            max: 24,
+            step: 1,
+            value: [2, 24],
+            tooltip: "hide",
+            formatter: stopover
+        });
+        Stopover.on('slideStop', function () {
+        }).on('slide', function () {
+            stopover(Stopover.getValue());
+        });
+    });
+
+    function stopover(val) {
+        if (Array.isArray(val)) {
+            $(".stopover").text(val[0] + ' - ' + val[1] + ' hours');
+        } else {
+            //$(".stopover").text(val + ' hours');
+        }
+    }
+
+    $(document).ready(function () {
+        var DeCityTakeOff = new Slider("input#de_city_take_off", {
+            min: 0,
+            max: 1440,
+            step: 15,
+            value: [0, 1440],
+            tooltip: "hide",
+            formatter: timeFormatter
+        });
+        DeCityTakeOff.on('slideStop', function () {
+            var range = getTime(DeCityTakeOff.getValue());
+            if (Array.isArray(range)) {
+                app.timeFilterParams.depTake.min = range[0];
+                app.timeFilterParams.depTake.max = range[1];
+            }
+            app.filterByTimes();
+        }).on('slide', function() {
+            $("#de_city_take_off_time").text(timeFormatter(DeCityTakeOff.getValue()));
+        });
+        var ArrCityTakeOff = new Slider("input#arr_city_take_off", {
+            min: 0,
+            max: 1440,
+            step: 15,
+            value: [0, 1440],
+            tooltip: "hide",
+            formatter: timeFormatter
+        });
+        ArrCityTakeOff.on('slideStop', function () {
+            var range = getTime(ArrCityTakeOff.getValue());
+            if (Array.isArray(range)) {
+                app.timeFilterParams.arrTake.min = range[0];
+                app.timeFilterParams.arrTake.max = range[1];
+            }
+            app.filterByTimes();
+        }).on('slide', function() {
+            $("#arr_city_take_off_time").text(timeFormatter(ArrCityTakeOff.getValue()));
+        });
+        var DeCityLanding = new Slider("input#de_city_landing", {
+            min: 0,
+            max: 1440,
+            step: 15,
+            value: [0, 1440],
+            tooltip: "hide",
+            formatter: timeFormatter
+        });
+        DeCityLanding.on('slideStop', function () {
+            var range = getTime(DeCityLanding.getValue());
+            if (Array.isArray(range)) {
+                app.timeFilterParams.depLand.min = range[0];
+                app.timeFilterParams.depLand.max = range[1];
+            }
+            app.filterByTimes();
+        }).on('slide', function() {
+            $("#de_city_landing_time").text(timeFormatter(DeCityLanding.getValue()));
+        });
+        var ArrCityLanding = new Slider("input#arr_city_landing", {
+            min: 0,
+            max: 1440,
+            step: 15,
+            value: [0, 1440],
+            tooltip: "hide",
+            formatter: timeFormatter
+        });
+        ArrCityLanding.on('slideStop', function () {
+            var range = getTime(ArrCityLanding.getValue());
+            if (Array.isArray(range)) {
+                app.timeFilterParams.arrLand.min = range[0];
+                app.timeFilterParams.arrLand.max = range[1];
+            }
+            app.filterByTimes();
+        }).on('slide', function() {
+            $("#arr_city_landing_time").text(timeFormatter(ArrCityLanding.getValue()));
+        });
+    });
+
+    function getTime(val) {
+        if (Array.isArray(val)) {
+            var time = ['00:00', '23:59'];
+            var hour = Math.floor(val[0] / 60);
+            var minute = val[0] - hour * 60;
+            time[0] = (hour >= 10 ? hour : '0' + hour) + ':' + (minute >= 10 ? minute : '0' + minute);
+            hour = Math.floor(val[1] / 60);
+            minute = val[1] - hour * 60;
+            time[1] = (hour >= 10 ? hour : '0' + hour) + ':' + (minute >= 10 ? minute : '0' + minute);
+            return time;
+        }
+        return null;
+    }
+
+    function timeFormatter(val) {
+        if (Array.isArray(val)) {
+            var hours1 = Math.floor(val[0] / 60);
+            var minutes1 = val[0] - hours1 * 60;
+
+            if (hours1.length == 1) hours1 = '0' + hours1;
+            if (minutes1.length == 1) minutes1 = '0' + minutes1;
+            if (minutes1 == 0) minutes1 = '00';
+            if (hours1 >= 12) {
+                if (hours1 == 12) {
+                    hours1 = hours1;
+                    minutes1 = minutes1 + " PM";
+                } else {
+                    hours1 = hours1 - 12;
+                    minutes1 = minutes1 + " PM";
+                }
+            } else {
+                hours1 = hours1;
+                minutes1 = minutes1 + " AM";
+            }
+            if (hours1 == 0) {
+                //hours1 = 12;
+                minutes1 = minutes1;
+            }
+            var minTime = hours1 + ':' + minutes1;
+
+            var hours2 = Math.floor(val[1] / 60);
+            var minutes2 = val[1] - hours2 * 60;
+
+            if (hours2.length == 1) hours2 = '0' + hours2;
+            if (minutes2.length == 1) minutes2 = '0' + minutes2;
+            if (minutes2 == 0) minutes2 = '00';
+            if (hours2 >= 12) {
+                if (hours2 == 12) {
+                    hours2 = hours2;
+                    minutes2 = minutes2 + " PM";
+                } else if (hours2 == 24) {
+                    hours2 = 11;
+                    minutes2 = "59 PM";
+                } else {
+                    hours2 = hours2 - 12;
+                    minutes2 = minutes2 + " PM";
+                }
+            } else {
+                hours2 = hours2;
+                minutes2 = minutes2 + " AM";
+            }
+
+            var maxTime = hours2 + ':' + minutes2;
+            return minTime + " - " + maxTime;
+        } else {
+            var hour = Math.floor(val / 60);
+            var minute = val - hour * 60;
+
+            if (hour.length == 1) hour = '0' + hour;
+            if (minute.length == 1) minute = '0' + minute;
+            if (minute == 0) minute = '00';
+            if (hour >= 12) {
+                if (hour == 12) {
+                    hour = hour;
+                    minute = minute + " PM";
+                } else {
+                    hour = hour - 12;
+                    minute = minute + " PM";
+                }
+            } else {
+                hour = hour;
+                minute = minute + " AM";
+            }
+            if (hour == 0) {
+                //hour = 12;
+                minute = minute;
+            }
+            return hour + ':' + minute;
+        }
+    }
+</script>
+</html>

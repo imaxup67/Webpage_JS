@@ -1,0 +1,338 @@
+@font-face {
+    font-family: 'Karla';
+    src: url(../css/fonts/karla/karla-Regular.ttf);	
+}
+
+@font-face {
+    font-family: karlaBold;	
+    src: url(../css/fonts/karla/karla-Bold.ttf);
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Karla', sans-serif;
+    background-color: #F7F9FE;
+}
+
+/* --------------- standardise -------------  */	
+.w-btn-primary{	
+    background-color: #00B5FF;	
+    color: #fff;	
+    padding:1rem 2rem;	
+    transition: .2s;   
+ }	
+ .w-btn-primary:hover, .w-btn-primary:focus, .w-btn-primary:active{	
+    color:#fff;	
+}
+
+/* ======================== */
+
+/* --------------- utility classes   -------------  */	
+
+.flex-center{	
+    justify-content: center;	
+    align-items: center;	
+}
+
+/* ======================= */
+
+
+ /* --------------- utility classes   -------------  */	
+ 
+  .flex-center{	
+     justify-content: center;	
+     align-items: center;	
+ }
+
+/* --------------- NAV -------------  */
+
+
+.navbar-nav a
+{
+    padding-top:5px !important;
+    padding-bottom:5px !important;
+    color:#fff !important;
+}
+
+
+/* --------------- TABS -------------  */
+
+.my-nav-tabs
+{
+
+}
+
+.my-nav-tabs li
+{
+    display: inline-block !important;
+    background-color: transparent;
+
+}
+
+.my-nav-tabs a:hover
+{
+
+    background-color: transparent !important;
+
+}
+
+.my-nav-tabs a:focus
+{
+    background-color: transparent !important;
+    color:#141F3F;
+
+}
+
+.my-nav-tabs a
+{
+    padding-left: 0px !important;
+    color:grey;
+    font-weight: bold;
+
+
+}
+
+
+
+/* ---------------  -------------  */
+
+
+/* Footer styling */
+.section-1 h2{
+    font-family:  karlaBold;
+    font-weight: bold;
+    color:#141F3F;
+}
+
+.footer-new {	
+    background: #141F3F;	
+    width: 100%;	
+}	
+
+ .footer-new .footer-top {	
+    padding-top: 20px;	
+    padding-bottom: 30px;	
+}	
+
+ .footer-new h4 {	
+    font-weight: bold;	
+    font-size: 22px;	
+    color: #222229;	
+}	
+
+ .footer-new .description p {	
+    font-weight: bold;	
+    font-size: 14px;	
+    line-height: 30px;	
+}	
+
+
+ .footer-new .phone-book .btn-deals {	
+    position: absolute;	
+    width: 70px;	
+    border-radius: 0px;	
+    margin-top: 0px;	
+    font-weight: normal;	
+    height: 40px;	
+}	
+
+
+ /* footer-fix */	
+.footer-top-row{	
+    display:flex;	
+    justify-content: center;	
+}	
+.footer-new .footer-menu {	
+    display: flex;	
+    flex-direction: column;	
+    align-items: center;	
+}	
+
+ .footer-new .footer-menu a {	
+    margin-top: 20px;	
+    color: #222229;	
+    font-size: 15px;	
+    text-decoration: none;	
+    font-weight: bold;	
+}	
+
+ .footer-bottom {	
+    padding-top: 50px;	
+    padding-bottom: 20px;	
+    color: #222229;	
+    font-weight: bold;	
+    font-size: 14px;	
+}	
+
+ .footer-bottom-titles {	
+    display: flex;	
+    justify-content: space-around;	
+    padding: 0 160px;	
+}	
+
+ .footer-bottom span {	
+    color: #222229;	
+    font-weight: bolder;	
+    font-size: 16px;	
+}	
+
+ .footer-bottom a {	
+    color: black;	
+    /* margin-right: 20px; */	
+    font-size: 18px;	
+}	
+
+ .footer-bottom-titles a:hover {	
+    text-decoration: none;	
+}	
+
+ .footer-bottom-description {	
+    text-align: center;	
+    margin-top: 30px;	
+    font-size: 16px;	
+}	
+
+ .footer-bottom-social-links {	
+    margin: 30px 0px 50px 0px;	
+    display: flex;	
+    justify-content: space-around;	
+    padding: 0 40%;	
+}
+
+/* --------------- Form  -------------  */
+
+.input-width
+{
+    width: 67%;
+}
+/* --------------- EXTRAS -------------  */
+
+.red
+{
+    background-color: red;
+}
+.blue
+{
+    background-color: blue;
+}
+
+.check
+{
+    margin-right: 5px;
+    margin-top: -2px;
+}
+.sharp
+{
+    border-radius: 0px;
+}
+
+.ul
+{
+    list-style: none;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.btn-1
+{
+    background-color: #00B5FF;
+    color:#fff !important;
+}
+.btn-1:hover{
+    background-color: #00B5FF !important;
+    color:#fff !important;
+}
+
+
+.btn-2
+{
+    background-color: transparent;
+    border:2px solid #00B5FF;
+    width:150px;
+}
+
+.btn-logout{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-width
+{
+    width: 80px;
+}
+
+.divider
+{
+    border-bottom: 2px solid #ddd;
+}
+
+.bold
+{
+    font-family:  karlaBold;
+    font-weight: bold;
+    color:#141F3F;
+}
+
+label
+{
+    color:#141F3F;
+}
+
+.pl0
+{
+    padding-left: 0px;
+}
+
+.pr0
+{
+    padding-right: 0px;
+}
+
+.pt5
+{
+    padding-top: 5px;
+}
+
+.ml20
+{
+    margin-left: 20px;
+}
+
+.mt0
+{
+    margin-top: 0px;
+}
+
+.mt10
+{
+    margin-top: 10px;
+}
+.mt20
+{
+    margin-top: 20px;
+}
+
+.mt30
+{
+    margin-top: 30px;
+}
+
+.mt40
+{
+    margin-top: 40px;
+}
+
+.pb20
+{
+    padding-bottom: 30px;
+}
+.navbar-nav li.home-nav a {
+    font-weight: normal;
+    padding-top: 15px !important;
+}
+.navbar-nav li.home-nav a:hover {
+    padding-top: 18px !important;
+    padding-bottom: 16px !important;
+}
